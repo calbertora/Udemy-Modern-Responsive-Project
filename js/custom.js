@@ -18,6 +18,13 @@ $(function() {
    Team section
 ======================================= 
 */
+
 $(function(){
-   $("#team-members").owlCarousel();
-});
+   $("#team-members").owlCarousel({
+      autoplay: true,
+      items: 3,
+      loop: true,
+      smartSpeed: 700,
+      autoplayHoverPause: true
+   });
+})

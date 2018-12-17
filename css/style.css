@@ -161,6 +161,58 @@ p {
    transform: scale(1.5);
 }
 
+
+/* 
+=======================================
+   Team section
+======================================= 
+*/
+
+.member {
+   margin: 0 15px 0 15px;
+}
+.member-info{
+   padding: 10px 0 30px 0;
+}
+h4.member-name{
+   font-size: 22px;
+   font-weight: 700;
+   letter-spacing: 1px;
+   padding-top: 2px;
+}
+
+h4.member-designation {
+   color: #34c6d3;
+   font-size: 15px;
+   font-weight: 600;
+   font-style: italic;
+   letter-spacing: 1px;
+   margin-top: 5px;
+}
+/* 
+=======================================
+   Social Icons sections
+======================================= 
+*/
+.social-list{
+   padding-left: 0
+}
+.social-list li{
+   list-style: none;
+   display: inline-block;
+   margin: 2px 10px 2px 10px;
+}
+.social-icon i{
+   font-size: 22px;
+}
+.icon-gray{
+   color: #41464b;
+}
+
+.icon-gray:hover{
+   color: #34c6d3;
+}
+
 /* 
 =======================================
    Content box (generic)
